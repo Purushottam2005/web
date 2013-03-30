@@ -3,4 +3,3 @@
 .project
 .classpath
 .springBeans
-/src/test/java/org/liferay4you/parent/DatabaseConectionTest.java

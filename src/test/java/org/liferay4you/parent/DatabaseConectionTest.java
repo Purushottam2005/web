@@ -30,7 +30,7 @@ public abstract class DatabaseConectionTest {
 			// Create data source
 			MysqlConnectionPoolDataSource dataSource = new MysqlConnectionPoolDataSource();
 			dataSource.setUser("root");
-			dataSource.setPassword("xxx");
+			dataSource.setPassword("root");
 			dataSource.setServerName("localhost");
 			dataSource.setPort(3306);
 			dataSource.setDatabaseName("liferay4you");

@@ -33,6 +33,45 @@
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-jpa</artifactId>
 			<version>1.3.0.RELEASE</version>
+			<exclusions>
+			
+				<!-- Ex: AOP -->
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-aop</artifactId>
+				</exclusion>
+				
+				<!-- Ex: Core -->
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-core</artifactId>
+				</exclusion>
+				
+				<!-- Ex: Beans -->
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-beans</artifactId>
+				</exclusion>
+				
+				<!-- Ex: ORM -->
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-orm</artifactId>
+				</exclusion>
+				
+				<!-- Ex: Context -->
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-context</artifactId>
+				</exclusion>
+				
+				<!-- Ex: Tx -->
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-tx</artifactId>
+				</exclusion>
+				
+			</exclusions>
 		</dependency>
         
         <!-- Spring ORM -->

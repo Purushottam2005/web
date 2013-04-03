@@ -1,7 +1,6 @@
 <%@ include file="../header/basic-header.jsp" %>
 
-<h2>Hello World!</h2>
-<p>${text}</p>
+<h1>HTTP ERROR : 404</h1>
 
 
 <%@ include file="../footer/basic-footer.jsp" %>

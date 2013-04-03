@@ -14,6 +14,7 @@ public class User {
 	/* *******************************
 	 ******** Table Fields ***********
 	 ****************************** */
+	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name = "USER_ID")

@@ -11,13 +11,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class HomeController {
+public class HttpErrorController {
 
-	@RequestMapping(value = Mappings.HOME)  
+	@RequestMapping(value = Mappings.HTTP_404)  
 	public ModelAndView home(HttpServletRequest request, HttpServletResponse response) {
 		
-		return SpringUtils.createMv(Constants.JSP_HOME, "text", new String("TESTTtTing!!!"));
+		return SpringUtils.createMv(Constants.JSP_404, "text", new String("TESTTtTing!!!"));
 	}
-	
 	
 }
